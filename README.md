@@ -36,6 +36,7 @@ print("hello world")
 print(hello world)
 ```
 ![image](https://github.com/user-attachments/assets/c34f27f5-6281-407c-b52a-4aa8e24f4922)
+
 This error is occurred because the python thinks "hello" is a variable[will be discussed later] and that variable is not defined.
 
 ### Common Types of Run-Time Errors
@@ -77,20 +78,45 @@ my_string.append(" World")  # This will cause an AttributeError
 ```
 ![image](https://github.com/user-attachments/assets/64da76d4-3779-4750-afdb-a69bbed7e77a)
 
+> Correct way is:
+```py
+my_string = ["Hello"] # known as List
+my_string.append(" World")  # Strings don’t have an append method
+print(my_string) # output will be ["Hello", " World"]
+```
+
 ### ValueError
 > This happens when a function gets the right type of argument but the value is inappropriate.
 ```py
-int("abc")  # Cannot convert 'abc' to an integer
+a = int("abc")  # Cannot convert 'abc' to an integer
+print(a)
 ```
 ![image](https://github.com/user-attachments/assets/ad0f9bc8-9537-4ab0-a0f8-482f1e9d3271)
+
+> Correct way is
+``` py
+a = int(1)  # Cannot convert 'abc' to an integer
+print(a) # Ouput will be 1
+```
 
 ### KeyError
 > This occurs when you try to access a key in a dictionary that doesn’t exist.
 ```py
-my_dict = {'a': 1}
+my_dict = {
+           'a': 1
+          }
 print(my_dict['b'])  # 'b' key does not exist
 ```
 ![image](https://github.com/user-attachments/assets/a9a10142-88fb-4fad-a3e7-d03afacce96f)
+
+> Correct way is:
+```py
+my_dict = {
+    'a': 1,
+    'b': 2
+    }
+print(my_dict['b']) #output will be 2
+```
 
 ###  IndentationError
  An IndentationError occurs in Python when the code is not properly indented. Python uses indentation (spaces or tabs) to define the structure of the code, such as which lines belong to a function, loop, or condition.
@@ -100,4 +126,9 @@ print("Hello")  # Incorrect indentation
 ```
 ![image](https://github.com/user-attachments/assets/f23fefd6-f217-4657-8f44-012976b1c55d)
 
-
+Correct way is:
+```py
+def my_function():
+    print("Hello World") #output will be Hello World
+^^ this space is known as indentation
+```
