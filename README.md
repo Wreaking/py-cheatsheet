@@ -9,6 +9,6 @@ Hello there, im Abdul Qaadir Mohiuddin Riaz aka Wreaking own this repo and this 
 - You need to practice it on a daily basis, if you are willing to learn Python.
 
 So let's begin!
-```
+```py
 print("Hello World")
 ```
