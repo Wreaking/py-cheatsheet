@@ -84,7 +84,7 @@ int("abc")  # Cannot convert 'abc' to an integer
 ```
 ![image](https://github.com/user-attachments/assets/ad0f9bc8-9537-4ab0-a0f8-482f1e9d3271)
 
-### KeyErro
+### KeyError
 > This occurs when you try to access a key in a dictionary that doesn’t exist.
 ```py
 my_dict = {'a': 1}
