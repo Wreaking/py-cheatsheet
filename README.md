@@ -16,7 +16,7 @@ print("Hello World")
 
 Mistakes made ina program are called errors and there are two main types of errors:
 ### Syntax error
-> It occurs when you write some code that isn't allowed in the python language. For example if we type this code line:
+It occurs when you write some code that isn't allowed in the python language. For example if we type this code line:
 ```py
 print("Hello world)
 ```
@@ -30,7 +30,7 @@ print("hello world")
 ```
 
 ### Run-time errors
-> Some IDLE(visual studio code, pycharm etc) catches syntax errors before running/executing the program or code but some errors cannot be caught until the program is executed. These errors are known as run-time errors because it only occurs at the time when the program is executed. For example:
+Some IDLE(visual studio code, pycharm etc) catches syntax errors before running/executing the program or code but some errors cannot be caught until the program is executed. These errors are known as run-time errors because it only occurs at the time when the program is executed. For example:
 
 ```py
 print(hello world)
@@ -60,7 +60,7 @@ result = 'Hello' + 5  # Cannot combine a string and a number
 ![image](https://github.com/user-attachments/assets/190ccb57-f794-4c4c-b9d1-effcb0d11c14)
 
 ### Logical Errors
-> Logical errors occur when your code runs without any crashes or error messages, but it produces the wrong results. This means the code is written correctly in terms of syntax (grammar) but does not do what you want it to do. For example
+Logical errors occur when your code runs without any crashes or error messages, but it produces the wrong results. This means the code is written correctly in terms of syntax (grammar) but does not do what you want it to do. For example
 
 ```py
 def add_numbers(a, b):
@@ -68,17 +68,17 @@ def add_numbers(a, b):
 
 result = add_numbers(2, 3)  # You expect 5, but it will return -1
 ```
-This is a function[will be discuused later] where we are trying to add two numbers but instead of adding, you are subracting. This is a human phenomenon! These errors usually happen because of a mistake in your logic or reasoning. You might have meant to do one thing, but you wrote the code to do something different.
+> This is a function[will be discuused later] where we are trying to add two numbers but instead of adding, you are subracting. This is a human phenomenon! These errors usually happen because of a mistake in your logic or reasoning. You might have meant to do one thing, but you wrote the code to do something different.
 
 ### AttributeError
-> This happens when you try to access something that doesn’t exist on an object, like a method or property or AttributeError occurs in Python when you try to access an attribute or method (a function that belongs to an object) that doesn’t exist for that particular object.
+This happens when you try to access something that doesn’t exist on an object, like a method or property or AttributeError occurs in Python when you try to access an attribute or method (a function that belongs to an object) that doesn’t exist for that particular object.
 ```py
 my_string = "Hello"
 my_string.append(" World")  # This will cause an AttributeError
 ```
 ![image](https://github.com/user-attachments/assets/64da76d4-3779-4750-afdb-a69bbed7e77a)
 
-> Correct way is:
+Correct way is:
 ```py
 my_string = ["Hello"] # known as List
 my_string.append(" World")  # Strings don’t have an append method
@@ -86,7 +86,7 @@ print(my_string) # output will be ["Hello", " World"]
 ```
 
 ### ValueError
-> This happens when a function gets the right type of argument but the value is inappropriate.
+This happens when a function gets the right type of argument but the value is inappropriate.
 ```py
 a = int("abc")  # Cannot convert 'abc' to an integer
 print(a)
@@ -100,7 +100,7 @@ print(a) # Ouput will be 1
 ```
 
 ### KeyError
-> This occurs when you try to access a key in a dictionary that doesn’t exist.
+This occurs when you try to access a key in a dictionary that doesn’t exist.
 ```py
 my_dict = {
            'a': 1
@@ -109,7 +109,7 @@ print(my_dict['b'])  # 'b' key does not exist
 ```
 ![image](https://github.com/user-attachments/assets/a9a10142-88fb-4fad-a3e7-d03afacce96f)
 
-> Correct way is:
+Correct way is:
 ```py
 my_dict = {
     'a': 1,
