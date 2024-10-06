@@ -130,5 +130,5 @@ Correct way is:
 ```py
 def my_function():
     print("Hello World") #output will be Hello World
-^^ this space is known as indentation
+# ^^ this space is known as indentation
 ```
