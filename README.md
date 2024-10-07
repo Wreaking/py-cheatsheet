@@ -35,16 +35,16 @@ a b c = "hello"
 ```
 ![image](https://github.com/user-attachments/assets/3351c1e5-95cf-46e5-95af-5593b7e40e73)
 
-You would get a syntax error. In Python, variable assignments must be formatted properly. The correct way to assign the value 10 to multiple variables would be to use commas to separate the variable names;
+You would get a syntax error. In Python, variable assignments must be formatted properly. The correct way to assign the value 10 to a multiple variables would be to use commas to separate the variable names;
 ```py
 a, b, c = 10, 12, 15
 ```
 here,
-> a is assign to ***a*** variable 10
+> ***a*** is assign to a value 10
 > 
-> b is assign to ***a*** variable 12
+> ***b*** is assign to a value 12
 > 
-> c is assign to ***a*** variable 15
+> ***c*** is assign to a value 15
 
 ## Case2:
 assigning more than one variable to one value.
