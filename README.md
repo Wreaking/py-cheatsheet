@@ -18,11 +18,11 @@ These are the basic code lines. Let's understand in simple language.
 
 how do we say the line code in physical conversation?
 We say,
-> Declaring a variable ***a*** is assign to a value(string) "hello world" and print a
+> Declare a variable ***a*** is assign to a value(string) "hello world" and print a
 > 
-> Declaring a variable ***b*** is assign to a value(integer) 10 and print b
+> Declare a variable ***b*** is assign to a value(integer) 10 and print b
 > 
-> Declaring a variable ***c*** is assign to a value(float) 1.3 and print c
+> Declare a variable ***c*** is assign to a value(float) 1.3 and print c
 
 Easy right? Try to complete a problem in codetantra 3.1.1
 
@@ -52,11 +52,11 @@ assigning more than one variable to one value.
 a = b = c = 2
 ```
 In this code you are assigning(a, b, c) to a value 2, that means
-> Declaring a variable ***a*** is assigned to value 2
+> Declare a variable ***a*** is assigned to value 2
 > 
-> Declaring a variable ***b*** is assigned to value 2
+> Declare a variable ***b*** is assigned to value 2
 > 
-> Declaring a variable ***c*** is assigned to value 2
+> Declare a variable ***c*** is assigned to value 2
 
 ## Case3:
 Swapping the values:
