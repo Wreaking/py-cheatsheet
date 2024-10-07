@@ -1,6 +1,5 @@
-# Chapter2: Strings
-Before we going to strings i.e your first data type, We have to understand the basic structure of the code, Let's take a simple code
-
+# Chapter2: Understanding the variables
+Let us understand what are the variables, you might be confused in the chapter2.
 ```py
 a = "hello there"
 print(a)
