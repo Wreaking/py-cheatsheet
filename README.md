@@ -1,5 +1,5 @@
 # Chapter2: Understanding the variables
-Let us understand what are the variables, you might be confused in the chapter2.
+Let us understand what are the variables and the additional cases.
 ```py
 a = "hello there"
 print(a)
