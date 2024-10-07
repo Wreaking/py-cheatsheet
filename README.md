@@ -19,8 +19,10 @@ These are the basic code lines. Let's understand in simple language.
 how do we say the line code in physical conversation?
 We say,
 > Declaring a variable ***a*** is assign to a value(string) "hello world" and print a
-Declaring a variable ***b*** is assign to a value(integer) 10 and print b
-Declaring a variable ***c*** is assign to a value(float) 1.3 and print c
+> 
+> Declaring a variable ***b*** is assign to a value(integer) 10 and print b
+> 
+> Declaring a variable ***c*** is assign to a value(float) 1.3 and print c
 
 Easy right? Try to complete a problem in codetantra 3.1.1
 
