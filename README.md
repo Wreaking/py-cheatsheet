@@ -18,9 +18,9 @@ These are the basic code lines. Let's understand in simple language.
 
 how do we say the line code in physical conversation?
 We say,
-Declaring a variable a is assign to a value(string) "hello world" and print a
-Declaring a variable b is assign to a value(integer) 10 and print b
-Declaring a variable c is assign to a value(float) 1.3 and print c
+> Declaring a variable ***a*** is assign to a value(string) "hello world" and print a
+Declaring a variable ***b*** is assign to a value(integer) 10 and print b
+Declaring a variable ***c*** is assign to a value(float) 1.3 and print c
 
 Easy right? Try to complete a problem in codetantra 3.1.1
 
@@ -38,11 +38,11 @@ You would get a syntax error. In Python, variable assignments must be formatted 
 a, b, c = 10, 12, 15
 ```
 here,
-> a is assign to a variable 10
+> a is assign to ***a*** variable 10
 > 
-> b is assign to a variable 12
+> b is assign to ***a*** variable 12
 > 
-> c is assign to a variable 15
+> c is assign to ***a*** variable 15
 
 ## Case2:
 assigning more than one variable to one value.
@@ -50,11 +50,11 @@ assigning more than one variable to one value.
 a = b = c = 2
 ```
 In this code you are assigning(a, b, c) to a value 2, that means
-> Declaring a variable a is assigned to value 2
+> Declaring a variable ***a*** is assigned to value 2
 > 
-> Declaring a variable b is assigned to value 2
+> Declaring a variable ***b*** is assigned to value 2
 > 
-> Declaring a variable c is assigned to value 2
+> Declaring a variable ***c*** is assigned to value 2
 
 ## Case3:
 Swapping the values:
@@ -75,4 +75,15 @@ In this code, we are swapping the values in the two variables, i.e
 
 Hope you got it.Try to solve the problem number 3.1.6 in codetantra
 
+# PEP 8
+PEP 8, or Python Enhancement Proposal 8, is the style guide for Python code. It provides conventions and best practices to improve the readability and consistency of Python code. Some key points include:
 
+1. **Indentation**: Use 4 spaces per indentation level.
+2. **Line Length**: Limit lines to 79 characters.
+3. **Blank Lines**: Use blank lines to separate functions and classes, and larger blocks of code inside functions.
+4. **Imports**: Import modules at the top of the file and group them logically (standard libraries, third-party libraries, local applications).
+5. **Naming Conventions**: Use lowercase with underscores for functions and variable names, and CamelCase for class names.
+6. **Comments**: Write comments to explain code, and use inline comments sparingly. Docstrings should describe modules, classes, and functions.
+7. **Whitespace**: Avoid excessive whitespace in expressions and statements.
+
+Following PEP 8 helps make Python code more understandable and maintainable, especially when working in teams. You can find the full PEP 8 document on the official Python website for a comprehensive guide.
