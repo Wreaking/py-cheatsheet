@@ -11,7 +11,9 @@ print(c)
 These are the basic code lines. Let's understand in simple language.
 
 > "a" is your **variable** which acts like a memeory storage
+> 
 > "=" is your **assignment operator** not equal. An operator is a symbol like =, +, -, / etc. that performs some operation on one or more values
+> 
 > "hello there", "10", "1.3" are your values. Those values are stored in a , b , c variables which acts like a memory storage
 
 how do we say the line code in physical conversation?
@@ -37,7 +39,9 @@ a, b, c = 10, 12, 15
 ```
 here,
 > a is assign to a variable 10
+> 
 > b is assign to a variable 12
+> 
 > c is assign to a variable 15
 
 ## Case2:
@@ -47,7 +51,9 @@ a = b = c = 2
 ```
 In this code you are assigning(a, b, c) to a value 2, that means
 > Declaring a variable a is assigned to value 2
+> 
 > Declaring a variable b is assigned to value 2
+> 
 > Declaring a variable c is assigned to value 2
 
 ## Case3:
@@ -60,8 +66,11 @@ a, b = b, a #ouput of a and b are 40 and 30
 ```
 In this code, we are swapping the values in the two variables, i.e
 > the original values of a and b are 30 and 40
+> 
 > We had swapped the values which means,
+> 
 > - a = b and b = a
+> - 
 > - the value of b(40) is given to variable a and value of a(30) is given to b
 
 Hope you got it.Try to solve the problem number 3.1.6 in codetantra
