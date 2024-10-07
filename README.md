@@ -77,15 +77,4 @@ In this code, we are swapping the values in the two variables, i.e
 
 Hope you got it.Try to solve the problem number 3.1.6 in codetantra
 
-# PEP 8
-PEP 8, or Python Enhancement Proposal 8, is the style guide for Python code. It provides conventions and best practices to improve the readability and consistency of Python code. Some key points include:
 
-1. **Indentation**: Use 4 spaces per indentation level.
-2. **Line Length**: Limit lines to 79 characters.
-3. **Blank Lines**: Use blank lines to separate functions and classes, and larger blocks of code inside functions.
-4. **Imports**: Import modules at the top of the file and group them logically (standard libraries, third-party libraries, local applications).
-5. **Naming Conventions**: Use lowercase with underscores for functions and variable names, and CamelCase for class names.
-6. **Comments**: Write comments to explain code, and use inline comments sparingly. Docstrings should describe modules, classes, and functions.
-7. **Whitespace**: Avoid excessive whitespace in expressions and statements.
-
-Following PEP 8 helps make Python code more understandable and maintainable, especially when working in teams. You can find the full PEP 8 document on the official Python website for a comprehensive guide.
