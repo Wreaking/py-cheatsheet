@@ -12,7 +12,7 @@ print("Hello World")
 ```
 ## Chapter1: Errors
 Mistakes made ina program are called errors and there are two main types of errors:
-### Syntax error
+## Syntax error
 It occurs when you write some code that isn't allowed in the python language. For example if we type this code line:
 ```py
 print("Hello world)
@@ -24,7 +24,7 @@ print("Hello world)
 print("hello world")
 # output: Hello World
 ```
-### Run-time errors
+## Run-time errors
 Some IDLE(visual studio code, pycharm etc) catches syntax errors before running/executing the program or code but some errors cannot be caught until the program is executed. These errors are known as run-time errors because it only occurs at the time when the program is executed. For example:
 ```py
 print(hello world)
@@ -48,7 +48,7 @@ print(my_list[3])  # Index 3 is out of range
 result = 'Hello' + 5  # Cannot combine a string and a number
 ```
 ![image](https://github.com/user-attachments/assets/190ccb57-f794-4c4c-b9d1-effcb0d11c14)
-### Logical Errors
+## Logical Errors
 Logical errors occur when your code runs without any crashes or error messages, but it produces the wrong results. This means the code is written correctly in terms of syntax (grammar) but does not do what you want it to do. For example
 ```py
 def add_numbers(a, b):
@@ -69,7 +69,7 @@ my_string = ["Hello"] # known as List
 my_string.append(" World")  # Strings don’t have an append method
 print(my_string) # output will be ["Hello", " World"]
 ```
-### ValueError
+## ValueError
 This happens when a function gets the right type of argument but the value is inappropriate.
 ```py
 a = int("abc")  # Cannot convert 'abc' to an integer
@@ -82,7 +82,7 @@ print(a)
 a = int(1)  # Cannot convert 'abc' to an integer
 print(a) # Ouput will be 1
 ```
-### KeyError
+## KeyError
 This occurs when you try to access a key in a dictionary that doesn’t exist.
 ```py
 my_dict = {
@@ -99,7 +99,7 @@ my_dict = {
     }
 print(my_dict['b']) #output will be 2
 ```
-###  IndentationError
+## IndentationError
  An IndentationError occurs in Python when the code is not properly indented. Python uses indentation (spaces or tabs) to define the structure of the code, such as which lines belong to a function, loop, or condition.
 
 ```py
