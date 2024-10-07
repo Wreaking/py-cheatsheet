@@ -125,3 +125,5 @@ PEP 8, or Python Enhancement Proposal 8, is the style guide for Python code. It 
 7. **Whitespace**: Avoid excessive whitespace in expressions and statements.
 
 Following PEP 8 helps make Python code more understandable and maintainable, especially when working in teams. You can find the full PEP 8 document on the official Python website for a comprehensive guide.
+
+[Click me](https://github.com/Wreaking/py-cheatsheet/blob/Chapter2-Variables/README.md) for the next topic!
